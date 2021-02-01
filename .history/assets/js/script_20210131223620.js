@@ -84,7 +84,7 @@ function myFunction(citySearch) {
                 memorySet()
             }
 
-            fetch('https://api.openweathermap.org/data/2.5/onecall?lat=' + data.coord.lat + '&lon=' + data.coord.lon + '&units=imperial&appid=80537c5878d1c4c5e4b0fb4912dedc85')
+            fetch('http://api.openweathermap.org/data/2.5/onecall?lat=' + data.coord.lat + '&lon=' + data.coord.lon + '&units=imperial&appid=80537c5878d1c4c5e4b0fb4912dedc85')
 
                 .then(function (responseUv) {
                     return responseUv.json();
@@ -149,7 +149,6 @@ function myFunction(citySearch) {
 
 
 $(document).on("click", ".historyChoice", function (event) {
-    $("#hide").css("display", "block");
     var buttonCity = event.target
     var cityName = buttonCity.textContent;
     myFunction(cityName)
@@ -157,7 +156,6 @@ $(document).on("click", ".historyChoice", function (event) {
 
 
 $('#search-button').on('click', function () {
-    $("#hide").css("display", "block");
     let citySearch = document.querySelector('#citySearch').value;
     myFunction(citySearch)
 });
@@ -167,9 +165,11 @@ $(document).ready(function () {
     memoryLoad();
     for (let i = 0; i < cityHistory.length; i++) {
         const cityList = cityHistory[i];
-        add(cityList)
 
+        add(cityList)
     }
 
 
 });
+
+

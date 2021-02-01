@@ -149,7 +149,6 @@ function myFunction(citySearch) {
 
 
 $(document).on("click", ".historyChoice", function (event) {
-    $("#hide").css("display", "block");
     var buttonCity = event.target
     var cityName = buttonCity.textContent;
     myFunction(cityName)
@@ -157,7 +156,6 @@ $(document).on("click", ".historyChoice", function (event) {
 
 
 $('#search-button').on('click', function () {
-    $("#hide").css("display", "block");
     let citySearch = document.querySelector('#citySearch').value;
     myFunction(citySearch)
 });
@@ -167,9 +165,18 @@ $(document).ready(function () {
     memoryLoad();
     for (let i = 0; i < cityHistory.length; i++) {
         const cityList = cityHistory[i];
-        add(cityList)
 
+        add(cityList)
     }
 
 
 });
+
+$(document).ready(function () {
+    memoryLoad();
+    for (let index = 0; index < citySearchHistory.length; index++) {
+        const element = citySearchHistory[index];
+        add(element);
+    }
+}
+

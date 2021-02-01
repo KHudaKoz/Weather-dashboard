@@ -65,7 +65,7 @@ column-width: 100%;
     padding: 2%;
 }
 
-#{
+.back {
 
 }
 .search-box{
@@ -145,6 +145,4 @@ hr {
 }
 
 
-#hide {
-    display: none;
-}
+#hide

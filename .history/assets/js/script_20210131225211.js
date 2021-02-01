@@ -149,7 +149,6 @@ function myFunction(citySearch) {
 
 
 $(document).on("click", ".historyChoice", function (event) {
-    $("#hide").css("display", "block");
     var buttonCity = event.target
     var cityName = buttonCity.textContent;
     myFunction(cityName)
