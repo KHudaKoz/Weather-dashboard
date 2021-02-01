@@ -35,8 +35,8 @@ function card(fiveDw) {
     // Date specific by order.   
     var date = $("<p>").text(dDate.getDay() + "/" + dDate.getMonth() + "/" + dDate.getUTCFullYear());
     var symbols = $('<img>').attr("src", "https://openweathermap.org/img/wn/" + fiveDw.weather[0].icon + ".png")
-    var humidity = $("<p>").text("Humidity: " + fiveDw.humidity + " %")
-    var temp = $("<p>").text("Temp: " + fiveDw.temp.day + " °" + "F")
+    var humidity = $("<p>").text(fiveDw.humidity)
+    var temp = $("<p>").text(fiveDw.temp.day+ " °" + "F")
     container.append(date, symbols, temp, humidity)
     $('#5day').append(container)
     //console.log(fiveDw)
@@ -103,7 +103,7 @@ function myFunction(citySearch) {
                     var dateDisplay = cityNameEl.append("  " + mainDate);
                     var symbols = $('<img>').attr("src", "https://openweathermap.org/img/wn/" + data1.current.weather[0].icon + ".png")
                     var tempEL = $("<p>").text("Temp: " + data.main.temp + " °" + "F");
-                    var humEl = $("<p>").text("Humidity :  " + data.main.humidity + " %");
+                    var humEl = $("<p>").text("Humidity :  " + data.main.humidity + " RH");
                     var windEl = $("<p>").text("Wind Speed :  " + data.wind.speed + "  Mph");
                     var UvEl = $("<texta>").text('UVI: ' + uvPlease);
 

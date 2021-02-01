@@ -103,7 +103,7 @@ function myFunction(citySearch) {
                     var dateDisplay = cityNameEl.append("  " + mainDate);
                     var symbols = $('<img>').attr("src", "https://openweathermap.org/img/wn/" + data1.current.weather[0].icon + ".png")
                     var tempEL = $("<p>").text("Temp: " + data.main.temp + " °" + "F");
-                    var humEl = $("<p>").text("Humidity :  " + data.main.humidity + " %");
+                    var humEl = $("<p>").text("Humidity :  " + data.main.humidity + " RH");
                     var windEl = $("<p>").text("Wind Speed :  " + data.wind.speed + "  Mph");
                     var UvEl = $("<texta>").text('UVI: ' + uvPlease);
 
