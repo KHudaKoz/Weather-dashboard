@@ -13,10 +13,8 @@ p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.fuckup{
-    display: flex;
-    flex: wrap;
-    width: 100% ;
+button {
+    flex-grow: 
 }
 h2 {
     text-shadow: 2px 2px rgb(209, 207, 207);

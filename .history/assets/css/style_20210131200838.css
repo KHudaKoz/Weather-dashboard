@@ -13,11 +13,6 @@ p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.fuckup{
-    display: flex;
-    flex: wrap;
-    width: 100% ;
-}
 h2 {
     text-shadow: 2px 2px rgb(209, 207, 207);
 }
@@ -55,7 +50,7 @@ h2 {
 
 .city-selected {
 background-color: rosybrown;
-column-width: 100%;
+column-width: 100;
 
 }
 .historyChoice {
