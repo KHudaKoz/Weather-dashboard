@@ -96,7 +96,6 @@ hr {
 .mode{ 
     background-color: yellow;
     padding: .2cm;
-    border-radius: .14cm;
     box-shadow: 0px 0px 8px rgb(24, 20, 20);
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -105,7 +104,6 @@ hr {
 .seve {
    background-color: red;
    padding: .2cm;
-    border-radius: .14cm;
     border-radius: .14cm;
     box-shadow: 0px 0px 8px rgb(24, 20, 20);
     font-weight: bold;

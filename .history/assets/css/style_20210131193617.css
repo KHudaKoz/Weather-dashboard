@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #344249;
+    --primary-color: #5b8194;
     --secondary-color: #ffffff;
     --tertiary-color: #3b5475a6;
   }
@@ -14,8 +14,9 @@ p {
 }
 
 h2 {
-    text-shadow: 2px 2px rgb(209, 207, 207);
+    text-shadow: 
 }
+
 /* start of css */
 .dashboard-title {
     background-color: var(--primary-color);
@@ -96,7 +97,6 @@ hr {
 .mode{ 
     background-color: yellow;
     padding: .2cm;
-    border-radius: .14cm;
     box-shadow: 0px 0px 8px rgb(24, 20, 20);
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -105,7 +105,6 @@ hr {
 .seve {
    background-color: red;
    padding: .2cm;
-    border-radius: .14cm;
     border-radius: .14cm;
     box-shadow: 0px 0px 8px rgb(24, 20, 20);
     font-weight: bold;
