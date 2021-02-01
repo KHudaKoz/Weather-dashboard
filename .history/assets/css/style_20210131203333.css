@@ -1,7 +1,7 @@
 :root {
     --primary-color: #344249;
     --secondary-color: #c09393;
-    --tertiary-color: #638dc5a6;
+    --tertiary-color: #3b5475a6;
   }
 *{
     box-sizing: border-box;
@@ -13,6 +13,11 @@ p {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.fuckup{
+    display: flex;
+    flex: wrap;
+    width: 100% ;
+}
 h2 {
     text-shadow: 2px 2px rgb(209, 207, 207);
 }
@@ -40,7 +45,7 @@ h2 {
 }
 .current-weather-container {
     display: flex;
-    background-color: rgba(83, 91, 95, 0.125);
+    background-color: rgba(115, 197, 235, 0.125);
     height: 19rem;
     border: 1px solid rgba(7, 7, 7, 0.2);
     border-radius: 10px;
@@ -79,7 +84,7 @@ column-width: 100%;
     border: 1px solid var(--primary-color);
 }
 .searchBtn {
-    background: rgb(66, 96, 131);
+    background: rgb(25, 127, 243);
     color: white;
     border: 3px solid rgba(115, 197, 235, 0.829);
     border-radius: 10px;

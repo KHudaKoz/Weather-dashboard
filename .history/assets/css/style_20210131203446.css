@@ -40,7 +40,7 @@ h2 {
 }
 .current-weather-container {
     display: flex;
-    background-color: rgba(83, 91, 95, 0.125);
+    background-color: rgba(37, 132, 177, 0.125);
     height: 19rem;
     border: 1px solid rgba(7, 7, 7, 0.2);
     border-radius: 10px;
@@ -79,7 +79,7 @@ column-width: 100%;
     border: 1px solid var(--primary-color);
 }
 .searchBtn {
-    background: rgb(66, 96, 131);
+    background: rgb(25, 127, 243);
     color: white;
     border: 3px solid rgba(115, 197, 235, 0.829);
     border-radius: 10px;
