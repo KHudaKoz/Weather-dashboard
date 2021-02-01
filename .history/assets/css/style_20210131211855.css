@@ -93,11 +93,10 @@ hr {
 
 #button {
     display: flex;
-    flex-flow: column;
+   
     max-width: 80%;
-    background-color: rgba(168, 35, 35, 0.8);
+    background-color: rgba(7, 7, 7, 0.8);
 }
-
 
 .fave {
   background-color: seagreen;
@@ -108,7 +107,6 @@ hr {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   
 }
-
 
 .mode{ 
     background-color: yellow;
@@ -128,4 +126,3 @@ hr {
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-

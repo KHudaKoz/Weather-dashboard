@@ -108,8 +108,9 @@ hr {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   
 }
-
-
+div .fivepara {
+    background-color: rgb(31, 53, 75);
+}
 .mode{ 
     background-color: yellow;
     padding: .2cm;
@@ -128,4 +129,5 @@ hr {
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 

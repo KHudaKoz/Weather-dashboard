@@ -29,7 +29,7 @@ function add(cityName) {
 
 function card(fiveDw) {
     var container = $('<div>');
-    container.addClass("m-3 fivepara")
+    container.addClass("m-3 five5para")
     //Date Ele Formating 
     var dDate = new Date(fiveDw.dt * 1000);
     // Date specific by order.   
@@ -52,7 +52,7 @@ function myFunction(citySearch) {
 
     // BEGINNING OF API
     fetch(
-        'https://api.openweathermap.org/data/2.5/weather?q=' + citySearch + '&units=Imperial&appid=80537c5878d1c4c5e4b0fb4912dedc85'
+        'http://api.openweathermap.org/data/2.5/weather?q=' + citySearch + '&units=Imperial&appid=80537c5878d1c4c5e4b0fb4912dedc85'
     )
         //PROMISE ONE HANDLING DATA RESPONSE
         .then(function (response) {
@@ -84,7 +84,7 @@ function myFunction(citySearch) {
                 memorySet()
             }
 
-            fetch('https://api.openweathermap.org/data/2.5/onecall?lat=' + data.coord.lat + '&lon=' + data.coord.lon + '&units=imperial&appid=80537c5878d1c4c5e4b0fb4912dedc85')
+            fetch('http://api.openweathermap.org/data/2.5/onecall?lat=' + data.coord.lat + '&lon=' + data.coord.lon + '&units=imperial&appid=80537c5878d1c4c5e4b0fb4912dedc85')
 
                 .then(function (responseUv) {
                     return responseUv.json();

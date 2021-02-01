@@ -109,7 +109,6 @@ hr {
   
 }
 
-
 .mode{ 
     background-color: yellow;
     padding: .2cm;
@@ -129,3 +128,6 @@ hr {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+m-3.fivepara {
+    background-color: rgb(31, 53, 75);
+}

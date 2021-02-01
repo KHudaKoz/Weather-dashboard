@@ -74,7 +74,9 @@ column-width: 100%;
     border-bottom: none;
     font-size: 25px;
 }
-
+div .fivepara {
+    background-color: rgb(31, 53, 75);
+}
 .btn {
     border: 1px solid var(--primary-color);
     background-color: ivory;
@@ -109,7 +111,6 @@ hr {
   
 }
 
-
 .mode{ 
     background-color: yellow;
     padding: .2cm;
@@ -128,4 +129,5 @@ hr {
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 

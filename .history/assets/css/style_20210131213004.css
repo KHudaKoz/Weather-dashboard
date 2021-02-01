@@ -85,7 +85,9 @@ column-width: 100%;
     border: 3px solid rgba(115, 197, 235, 0.829);
     border-radius: 10px;
 }
-
+div .fivepara {
+    background-color: rgb(31, 53, 75);
+}
 hr {
     border-top: 1px solid black;
     opacity: 0.3;
@@ -109,7 +111,6 @@ hr {
   
 }
 
-
 .mode{ 
     background-color: yellow;
     padding: .2cm;
@@ -128,4 +129,5 @@ hr {
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 

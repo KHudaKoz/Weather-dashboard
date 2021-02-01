@@ -84,7 +84,7 @@ function myFunction(citySearch) {
                 memorySet()
             }
 
-            fetch('https://api.openweathermap.org/data/2.5/onecall?lat=' + data.coord.lat + '&lon=' + data.coord.lon + '&units=imperial&appid=80537c5878d1c4c5e4b0fb4912dedc85')
+            fetch('http://api.openweathermap.org/data/2.5/onecall?lat=' + data.coord.lat + '&lon=' + data.coord.lon + '&units=imperial&appid=80537c5878d1c4c5e4b0fb4912dedc85')
 
                 .then(function (responseUv) {
                     return responseUv.json();

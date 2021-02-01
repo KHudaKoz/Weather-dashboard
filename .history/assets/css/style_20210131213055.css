@@ -7,7 +7,9 @@
     box-sizing: border-box;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-
+div .fivepara {
+    background-color: rgb(31, 53, 75);
+}
 p {
     font-size: large;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -128,4 +130,5 @@ hr {
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 

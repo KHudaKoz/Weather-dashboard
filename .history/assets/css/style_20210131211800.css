@@ -77,7 +77,7 @@ column-width: 100%;
 
 .btn {
     border: 1px solid var(--primary-color);
-    background-color: ivory;
+    background-color: ;
 }
 .searchBtn {
     background: rgb(66, 96, 131);
@@ -94,10 +94,9 @@ hr {
 #button {
     display: flex;
     flex-flow: column;
-    max-width: 80%;
-    background-color: rgba(168, 35, 35, 0.8);
+    max-width: 60%;
+    background-color: rgba(7, 7, 7, 0.8);
 }
-
 
 .fave {
   background-color: seagreen;
@@ -108,7 +107,6 @@ hr {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   
 }
-
 
 .mode{ 
     background-color: yellow;
@@ -128,4 +126,3 @@ hr {
     font-weight: bold;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
