@@ -62,9 +62,7 @@ column-width: 100%;
     padding: 2%;
 }
 
-.back {
 
-}
 .search-box{
     border: none;
 }
@@ -96,7 +94,7 @@ hr {
 
 #button {
     display: flex;
-  
+    border: 1px solid pink;
     flex-flow: column;
     width: 100%;
     background-color: rgba(168, 35, 35) !important;

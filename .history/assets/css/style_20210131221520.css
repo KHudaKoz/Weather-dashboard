@@ -40,7 +40,7 @@ h2 {
 }
 .current-weather-container {
     display: flex;
-    background-color:rgba(97, 102, 156, 0.452);
+    background-color: rgba(83, 91, 95, 0.125);
     height: 19rem;
     border: 1px solid rgba(7, 7, 7, 0.2);
     border-radius: 10px;
@@ -53,7 +53,7 @@ column-width: 100%;
 
 }
 .historyChoice {
-    border: 1px solid rgb(104, 103, 103);
+    border: 1px solid rgb(161, 157, 158);
     background-color:rgb(255, 255, 255);
     font-size: large;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -62,9 +62,7 @@ column-width: 100%;
     padding: 2%;
 }
 
-.back {
 
-}
 .search-box{
     border: none;
 }
@@ -85,7 +83,7 @@ column-width: 100%;
 .searchBtn {
     background: rgb(66, 96, 131);
     color: white;
-    border: 3px solid rgb(115, 197, 235);
+    border: 3px solid rgba(115, 197, 235, 0.829);
     border-radius: 10px;
 }
 
@@ -96,7 +94,7 @@ hr {
 
 #button {
     display: flex;
-  
+    border: 1px solid pink;
     flex-flow: column;
     width: 100%;
     background-color: rgba(168, 35, 35) !important;
@@ -134,7 +132,7 @@ hr {
 }
 
 .fivepara {
-    background-color: rgba(97, 102, 156, 0.452);
-    border-radius: 10px;
-    padding: 15px;
+    background-color: rgba(154, 158, 201, 0.397);
+    border-radius: .25px;
+    padding: 10px;
 }
